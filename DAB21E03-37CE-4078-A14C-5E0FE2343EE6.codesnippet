@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>div</string>
+	<string>dispatch_on_main_queue</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//*****************************************************************************
-#pragma mark -
-#pragma mark ** &lt;#Title#&gt; **
-
-
-
-</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+                                 &lt;#code#&gt;
+                             });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>90CE1E73-BCB4-43DF-87AE-893AB54E9D2E</string>
+	<string>DAB21E03-37CE-4078-A14C-5E0FE2343EE6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Section Divider</string>
+	<string>dispatch async on main queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
